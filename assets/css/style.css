@@ -25,7 +25,7 @@ nav a {
     color: white;
     font-family: "futura", sans-serif;
     font-weight: 200;
-    font-style: normal;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -33,9 +33,11 @@ nav a {
     height: 300px;
     border-radius: 50%;
     margin-left: 100px;
+    margin-right: 20px;
 }
 
 #about {
+    margin-top: 50px;
     color: black;
     font-family: "futura", sans-serif;
 }
@@ -43,19 +45,18 @@ nav a {
 #about h1 {
     padding: 20px;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
-    position: absolute;
-    top: 425px;
-    left: 500px;
 }
 
 #about p {
+   margin-right: 100px;
    padding: 20px;
-   margin-right: 200px;
    font-weight: 100;
-   font-size: 15px;
-   position: absolute;
-   top: 500px;
-   left: 500px;
+   font-size: 16px;
+   line-height: 125%
+}
+
+.about-detail {
+    display: flex;
 }
