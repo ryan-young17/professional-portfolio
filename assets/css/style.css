@@ -1,0 +1,67 @@
+* {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+nav a {
+    padding: 40px;
+    color: black;
+    font-family: "futura", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.headshot {
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.about {
+    color: black;
+    font-family: "futura", sans-serif;
+}
+
+.about h1 {
+    padding: 20px;
+    font-weight: 200;
+    font-size: 50px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 425px;
+    left: 500px;
+}
+
+.about p {
+   padding: 20px;
+   margin-right: 200px;
+   font-weight: 100;
+   font-size: 15px;
+   position: absolute;
+   top: 500px;
+   left: 500px;
+}
+
+.portfolio {
+    margin-left: 100px;
+}
