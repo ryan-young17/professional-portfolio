@@ -32,45 +32,26 @@ nav a {
 .headshot {
     height: 300px;
     border-radius: 50%;
-    margin-left: 50px;
     margin-right: 20px;
 }
 
-#about {
-    margin-top: 50px;
-    color: black;
+section {
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: "futura", sans-serif;
+    color: black;
 }
 
-#about h1 {
+h1 {
     padding: 20px;
     font-weight: 200;
     font-size: 40px;
     text-transform: uppercase;
 }
 
-#about p {
-   margin-right: 50px;
-   padding: 20px;
-   font-weight: 100;
-   font-size: 16px;
-   line-height: 125%
-}
-
-.about-detail {
-    display: flex;
-}
-
-#portfolio {
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#portfolio h2 {
+h2 {
     padding: 20px;
     margin-top: 20px;
-    font-family: "futura", sans-serif;
     font-weight: 200;
     font-size: 40px;
     text-transform: uppercase;
@@ -84,48 +65,57 @@ h3 {
     text-transform: uppercase;
 }
 
+#about {
+    margin-top: 50px;
+}
+
+#about p {
+   padding: 20px;
+   font-weight: 100;
+   font-size: 16px;
+   line-height: 125%
+}
+
+.about-detail {
+    display: flex;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 article {
     padding: 20px;
     width: 50%;
-}
-
-article img {
-    width: 100%;
 }
 
 .featured {
     width: 100%;
 }
 
+article img {
+    width: 100%;
+}
+
 #contact {
-    margin-left: 50px;
-    margin-right: 50px;
     margin-bottom: 20px;
-    font-family: "futura", sans-serif;
-    color: black;
+    margin-right: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-#contact h2 {
-    padding: 20px;
-    margin-top: 20px;
-    font-weight: 200;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
 #contact a {
     font-size: 16px;
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 footer {
     background-color: black;
-    padding: 20px;
+    padding: 40px;
     font-family: "futura", sans-serif;
     font-size: 20px;
     color: white;
