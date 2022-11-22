@@ -32,7 +32,7 @@ nav a {
 .headshot {
     height: 300px;
     border-radius: 50%;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 20px;
 }
 
@@ -50,7 +50,7 @@ nav a {
 }
 
 #about p {
-   margin-right: 100px;
+   margin-right: 50px;
    padding: 20px;
    font-weight: 100;
    font-size: 16px;
@@ -60,3 +60,37 @@ nav a {
 .about-detail {
     display: flex;
 }
+
+#portfolio {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio h2 {
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "futura", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+article {
+    padding: 20px;
+    width: 50%;
+}
+
+article img {
+    width: 100%;
+}
+
+.featured {
+    width: 100%;
+}
+
+
