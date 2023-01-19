@@ -1,4 +1,4 @@
-# Challenge 02 | Professional Portfolio
+# Professional Portfolio
 
 [Link to my project](https://ryan-young17.github.io/professional-portfolio/)
 
